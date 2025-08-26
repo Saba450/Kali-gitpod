@@ -1,1 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Start Kali
+    command: docker exec -it kali-instance bash
 
